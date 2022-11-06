@@ -1,0 +1,15 @@
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.csproj.AssemblyReference.cache
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.AssemblyInfoInputs.cache
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.AssemblyInfo.cs
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/bin/Debug/net6.0/paskaita1031
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/bin/Debug/net6.0/paskaita1031.deps.json
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/bin/Debug/net6.0/paskaita1031.runtimeconfig.json
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/bin/Debug/net6.0/paskaita1031.dll
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/bin/Debug/net6.0/paskaita1031.pdb
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.dll
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/refint/paskaita1031.dll
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.pdb
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/paskaita1031.genruntimeconfig.cache
+/Users/admin/Desktop/vigi .NET/paskaita1031/paskaita1031/obj/Debug/net6.0/ref/paskaita1031.dll

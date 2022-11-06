@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}|Default">
+  <MonoDevelop.Ide.ItemProperties.paskaita1031 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="paskaita1031tests/UnitTest1.cs">
+    <Files>
+      <File FileName="paskaita1031/Program.cs" Line="52" Column="1" />
+      <File FileName="paskaita1031/EmptyClass.cs" Line="284" Column="46" />
+      <File FileName="paskaita1031tests/UnitTest1.cs" Line="42" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="paskaita1031" expanded="True">
+            <Node name="paskaita1031" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="paskaita1031tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="paskaita1031" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paskaita1031", "paskaita1031\paskaita1031.csproj", "{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paskaita1031tests", "paskaita1031tests\paskaita1031tests.csproj", "{D3B42B5E-EB21-4098-A118-A3D841E43F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA6438B-76AC-4D1A-BD25-E76E2D2C194D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B42B5E-EB21-4098-A118-A3D841E43F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B42B5E-EB21-4098-A118-A3D841E43F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B42B5E-EB21-4098-A118-A3D841E43F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B42B5E-EB21-4098-A118-A3D841E43F42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EF8FDFA-8DF8-4CE3-AAD1-4E2F81D07010}
+	EndGlobalSection
+EndGlobal
