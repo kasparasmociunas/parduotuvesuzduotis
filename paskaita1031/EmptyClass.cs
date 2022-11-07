@@ -24,15 +24,15 @@ public class Product
 
     public class Meat : Product
     {
-        public string MeatType { get; set; }
+        public string Protein { get; set; }
     }
     public class Groceries : Product
     {
-        public string CountryOfOrigin { get; set; }
+        public string Fiber { get; set; }
     }
     public class Liquids : Product
     {
-        public string BestBefore { get; set; }
+        public string Liters { get; set; }
     }
 }
 
@@ -69,13 +69,13 @@ public class Shop
         {
             Console.WriteLine("Do you want to see another category? (Y/N)");
             string userChoice = Console.ReadLine();
-            switch (userChoice)
+            switch (userChoice.ToLower()) //apsisaugom nuo invalid input jei ivestu mazaja. Galima ir ToUpper, nera skirtumo
             {
-                case ("Y"):
+                case ("y"):
                     userInputIsValid = true;
                     ShowCategoryList();
                     break;
-                case ("N"):
+                case ("n"):
                     userInputIsValid = true;
                     ShowMainMenu();
                     break;
@@ -132,8 +132,6 @@ public class Shop
         {
             string[] productDataArray = lines[i].Split(',');
 
-  
-
             switch (typeString)
             {
                 case "Sweets":
@@ -154,7 +152,7 @@ public class Shop
                     meat.Price = productDataArray[1];
                     meat.Barcode = productDataArray[2];
                     meat.Weight = productDataArray[3];
-                    meat.MeatType = productDataArray[4];
+                    meat.Protein = productDataArray[4];
                     break;
                 case "Groceries":
                     Groceries grocery = new Groceries();
@@ -163,7 +161,7 @@ public class Shop
                     grocery.Price = productDataArray[1];
                     grocery.Barcode = productDataArray[2];
                     grocery.Weight = productDataArray[3];
-                    grocery.CountryOfOrigin = productDataArray[4];
+                    grocery.Fiber = productDataArray[4];
                     break;
                 case "Liquids":
                     Liquids liquid = new Liquids();
@@ -172,7 +170,7 @@ public class Shop
                     liquid.Price = productDataArray[1];
                     liquid.Barcode = productDataArray[2];
                     liquid.Weight = productDataArray[3];
-                    liquid.BestBefore = productDataArray[4];
+                    liquid.Liters = productDataArray[4];
                     break;
             }
 
@@ -193,13 +191,13 @@ public class Shop
             {
                 Console.WriteLine("Do you want to see product list? (Y/N)");
                 string userChoice = Console.ReadLine();
-                switch (userChoice)
+                switch (userChoice.ToLower())
                 {
-                    case ("Y"):
+                    case ("y"):
                         userInputIsValid = false;
                         ShowCategoryList();
                         break;
-                    case ("N"):
+                    case ("n"):
                         userInputIsValid = false;
                         ShowMainMenu();
                         break;
@@ -261,13 +259,13 @@ public class Shop
         {
             Console.WriteLine("Do you want to checkout (Y/N)");
             string userChoice = Console.ReadLine();
-            switch (userChoice)
+            switch (userChoice.ToLower())
             {
-                case ("Y"):
+                case ("y"):
                     userInputIsValid = true;
                     Checkout(shoppingCart);
                     break;
-                case ("N"):
+                case ("n"):
                     userInputIsValid = true;
                     ShowMainMenu();
                     break;
@@ -334,13 +332,13 @@ public class Shop
 
             string userChoice = Console.ReadLine();
 
-            switch (userChoice)
+            switch (userChoice.ToLower())
             {
-                case ("Y"):
+                case ("y"):
                     userInputIsValid = true;
                     SendReceipt();
                     break;
-                case ("N"):
+                case ("n"):
                     userInputIsValid = true;
                     ShowMainMenu();
                     break;
@@ -430,8 +428,8 @@ public class Shop
     
 
     public void SendReceipt() {
-        string gmailPassword = "zvyvfzxjovyovpvs";
-        string myEmail = "kasparas.mociunas@gmail.com";
+        string gmailPassword = "zvyvfzxjovyovpvs";  //atjungtas, supushinau i GIT su psw todel dabar turiu blokuota gmail
+        string myEmail = "kasparas.mociunas@gmail.com"; 
         var smtpClient = new SmtpClient("smtp.gmail.com")
         {
             Port = 587,

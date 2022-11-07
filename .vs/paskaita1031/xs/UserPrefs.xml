@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.paskaita1031 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="paskaita1031tests/UnitTest1.cs">
     <Files>
-      <File FileName="paskaita1031/Program.cs" Line="52" Column="1" />
+      <File FileName="paskaita1031/Program.cs" Line="90" Column="9" />
       <File FileName="paskaita1031/EmptyClass.cs" Line="284" Column="46" />
       <File FileName="paskaita1031tests/UnitTest1.cs" Line="42" Column="1" />
     </Files>
@@ -11,10 +11,12 @@
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="paskaita1031" expanded="True">
-            <Node name="paskaita1031" expanded="True" selected="True">
+            <Node name="paskaita1031" expanded="True">
               <Node name="Dependencies" expanded="True" />
             </Node>
-            <Node name="paskaita1031tests" expanded="True" />
+            <Node name="paskaita1031tests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
