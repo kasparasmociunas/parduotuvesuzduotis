@@ -141,10 +141,10 @@ public class Shop
                     sweet.Price = productDataArray[1];//pagalvot ar konvertavima i double det cia, ar veliau
                     sweet.Barcode = productDataArray[2];
                     sweet.Weight = productDataArray[3];
-                    sweet.Sugar = productDataArray[4];
-                 
+                    sweet.Sugar = productDataArray[4]; //galima pernaudot imant product.GetType().GetProperties() sarasa ir det i kiekviena property po value is productDataArray
+
                     break;
-                     //tikriausiai butu galima pernaudoti bet nerandu budo kaip uzsetinti klases parametra
+                
                 case "Meat":
                     Meat meat = new Meat();
                     fullProductList.Add(meat);
